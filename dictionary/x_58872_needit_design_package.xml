@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7674146493adc790b8b6f9d5dd03d677" label="Design Package" max_length="40" name="x_58872_needit_design_package" type="collection">
+        <element label="Design Package Reference" mandatory="true" max_length="40" name="dp_ref" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Problem Description" max_length="5000" name="problem_description" type="string"/>
+        <element label="Current State" max_length="40" name="current_state" type="string"/>
+        <element label="Future State" max_length="40" name="future_state" type="string"/>
     </element>
 </database>
